@@ -1,0 +1,9 @@
+<design:component label="iFrame Component">
+    <design:attribute name="iframeUrl" label="Source URL (HTTPS only)" default="https://put-your-url.here/"/>
+    <design:attribute name="width" label="Width" default="100%"/>
+    <design:attribute name="height" label="Height" default="500px"/>
+    <design:attribute name="style" label="Style" default="border: none; overflow: scroll;"/>
+    <design:attribute name="scrolling" label="Scrolling" default="auto"/>
+    <design:attribute name="frameBorder" label="Frame Border" default="0"/>
+    <design:attribute name="sandbox" label="Frame Border" default="allow-same-origin allow-scripts allow-forms"/>
+</design:component>
